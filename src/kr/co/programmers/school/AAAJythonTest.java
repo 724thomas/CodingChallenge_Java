@@ -1,6 +1,7 @@
 package kr.co.programmers.school;
 
-import org.python.util.PythonInterpreter;
+import org.python.uti
+        .PythonInterpreter;
 
 import javax.script.*;
 import java.io.*;
