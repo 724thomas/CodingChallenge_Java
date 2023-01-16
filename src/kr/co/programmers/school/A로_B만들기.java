@@ -5,7 +5,7 @@ public class A로_B만들기 {
     public int solution(String before, String after) {
         if (sortString(before).equals(sortString(after))){
             return 1;
-        }
+    }
         return 0;
     }
 
