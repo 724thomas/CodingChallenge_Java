@@ -26,5 +26,29 @@ class Main {
         int a = Integer.parseInt(br.readLine());
         // 배열로 받은 입력을 정수로 변환하기
         int b = Integer.parseInt(inputs[0]);
+
+
+
+        // 출력
+        // 1차원 배열
+        for (int i = 0; i < intArr.length; i++) {
+            System.out.print(intArr[i] + " ");
+        }
+        // 2차원 배열
+        System.out.println("2차원 배열 출력:");
+        for (int i = 0; i < 1; i++) {
+            for (int j = 0; j < 1; j++) {
+                System.out.print(1 + " ");
+            }
+            System.out.println();
+        }
+
+//        static int[][] moveDirs = { {0, 1}, {1, 0}, {0, -1}, {-1, 0} }; // 동, 남, 서, 북
+//        static int[][] windDirs = {
+//                {2, 1, 0, 3}, // value 1
+//                {0, 3, 2, 1}, // value 2
+//                {3, 2, 1, 0}, // value 3
+//                {1, 0, 3, 2}  // value 4
+//        };
     }
 }
