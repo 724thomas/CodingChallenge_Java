@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
-class Q_16434 {
+class Q16434 {
 
     static long battle(long health, long attack, long ehealth, long eattack) {
         long damageTaken = ((ehealth + attack - 1) / attack - 1) * eattack;

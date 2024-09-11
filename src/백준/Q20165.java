@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
 
-class Q_20165 {
+class Q20165 {
     public static void main(String[] args) throws IOException {
         Map<Character, int[]> directions = new HashMap<>();
         directions.put('W', new int[]{0,-1});

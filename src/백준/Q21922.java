@@ -5,7 +5,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
-public class Q_21922 {
+public class Q21922 {
 
     static int getDirection(int direction, int value) { // 1 Up, 2 Down, 3 Left, 4 Right
         if (value == 1) {
