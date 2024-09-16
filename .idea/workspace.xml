@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3402f225-f16d-430c-a5f8-6b062eeb28a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/백준/Q_20165.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/백준/Q_21922.java" afterDir="false" />
+    <list default="true" id="3402f225-f16d-430c-a5f8-6b062eeb28a6" name="Changes" comment="240916">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/백준/template/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/template/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +36,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/CodingChallenge/CodingChallenge_Java/src/백준/p1445&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/CodingChallenge/CodingChallenge_Java/src/프로그래머스&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -49,27 +46,29 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\CodingChallenge\CodingChallenge_Java\src\프로그래머스" />
       <recent name="C:\Users\user\IdeaProjects\CodingChallenge\CodingChallenge_Java\src\백준\p1445" />
       <recent name="C:\Users\user\IdeaProjects\CodingChallenge\CodingChallenge_Java\src\백준\p14426" />
       <recent name="C:\Users\user\IdeaProjects\CodingChallenge\CodingChallenge_Java\src\백준\1189" />
       <recent name="C:\Users\user\IdeaProjects\CodingChallenge\CodingChallenge_Java\src\백준\p14594" />
-      <recent name="p14594" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="백준.template" />
+      <recent name="Leetcode" />
       <recent name="백준" />
+      <recent name="프로그래머스" />
+      <recent name="백준.template" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q_20165">
-    <configuration name="Q_20165 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q_20165" />
+  <component name="RunManager" selected="Application.Q16964 (1)">
+    <configuration name="Q16964 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q16964" />
       <module name="CodingChallenge_Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q_20165" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="백준.Q_20165" />
+    <configuration name="Q16964" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="백준.Q16964" />
       <module name="CodingChallenge_Java" />
       <extension name="coverage">
         <pattern>
@@ -81,15 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q_21922 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q_21922" />
-      <module name="CodingChallenge_Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q_21922" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="백준.Q_21922" />
+    <configuration name="Q18114" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="백준.Q18114" />
       <module name="CodingChallenge_Java" />
       <extension name="coverage">
         <pattern>
@@ -101,12 +93,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="백준.p1445.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="백준.p1445.Main" />
+    <configuration name="Q2232" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="백준.Q2232" />
       <module name="CodingChallenge_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="백준.p1445.*" />
+          <option name="PATTERN" value="백준.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q27466" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="백준.Q27466" />
+      <module name="CodingChallenge_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="백준.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q_20165" />
-        <item itemvalue="Application.Q_20165 (1)" />
-        <item itemvalue="Application.Q_21922" />
-        <item itemvalue="Application.Q_21922 (1)" />
-        <item itemvalue="Application.백준.p1445.Main" />
+        <item itemvalue="Application.Q16964 (1)" />
+        <item itemvalue="Application.Q16964" />
+        <item itemvalue="Application.Q18114" />
+        <item itemvalue="Application.Q2232" />
+        <item itemvalue="Application.Q27466" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +145,249 @@
       <workItem from="1725364859401" duration="4844000" />
       <workItem from="1725533012254" duration="558000" />
       <workItem from="1725683472816" duration="9646000" />
+      <workItem from="1725844101622" duration="520000" />
+      <workItem from="1725844639956" duration="24378000" />
+      <workItem from="1726410000037" duration="1288000" />
     </task>
+    <task id="LOCAL-00001" summary="240909">
+      <created>1725844344195</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725844344196</updated>
+    </task>
+    <task id="LOCAL-00002" summary="240910">
+      <created>1725895305436</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725895305436</updated>
+    </task>
+    <task id="LOCAL-00003" summary="240910">
+      <created>1725895308122</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725895308122</updated>
+    </task>
+    <task id="LOCAL-00004" summary="240910">
+      <created>1725895310825</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725895310825</updated>
+    </task>
+    <task id="LOCAL-00005" summary="240910">
+      <created>1725895313475</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725895313475</updated>
+    </task>
+    <task id="LOCAL-00006" summary="240910">
+      <created>1725895316197</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725895316197</updated>
+    </task>
+    <task id="LOCAL-00007" summary="240910">
+      <created>1725895318886</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725895318886</updated>
+    </task>
+    <task id="LOCAL-00008" summary="240910">
+      <created>1725895321247</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725895321247</updated>
+    </task>
+    <task id="LOCAL-00009" summary="240910">
+      <created>1725928680751</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1725928680751</updated>
+    </task>
+    <task id="LOCAL-00010" summary="240910">
+      <created>1725928684288</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1725928684288</updated>
+    </task>
+    <task id="LOCAL-00011" summary="240910">
+      <created>1725928686435</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1725928686435</updated>
+    </task>
+    <task id="LOCAL-00012" summary="240911">
+      <created>1726014907685</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1726014907685</updated>
+    </task>
+    <task id="LOCAL-00013" summary="240911">
+      <created>1726014910262</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1726014910262</updated>
+    </task>
+    <task id="LOCAL-00014" summary="240911">
+      <created>1726014913273</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1726014913273</updated>
+    </task>
+    <task id="LOCAL-00015" summary="240911">
+      <created>1726014915861</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1726014915861</updated>
+    </task>
+    <task id="LOCAL-00016" summary="240911">
+      <created>1726014918707</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1726014918707</updated>
+    </task>
+    <task id="LOCAL-00017" summary="240911">
+      <created>1726014921099</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1726014921099</updated>
+    </task>
+    <task id="LOCAL-00018" summary="240911">
+      <created>1726046379387</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1726046379387</updated>
+    </task>
+    <task id="LOCAL-00019" summary="240911">
+      <created>1726046382052</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1726046382052</updated>
+    </task>
+    <task id="LOCAL-00020" summary="240911">
+      <created>1726046384152</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1726046384152</updated>
+    </task>
+    <task id="LOCAL-00021" summary="240912">
+      <created>1726102556105</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1726102556105</updated>
+    </task>
+    <task id="LOCAL-00022" summary="240912">
+      <created>1726102558997</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1726102558997</updated>
+    </task>
+    <task id="LOCAL-00023" summary="240912">
+      <created>1726102561625</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1726102561625</updated>
+    </task>
+    <task id="LOCAL-00024" summary="240912">
+      <created>1726102564231</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1726102564231</updated>
+    </task>
+    <task id="LOCAL-00025" summary="240912">
+      <created>1726102566849</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1726102566849</updated>
+    </task>
+    <task id="LOCAL-00026" summary="240912">
+      <created>1726102569081</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1726102569081</updated>
+    </task>
+    <task id="LOCAL-00027" summary="240912">
+      <created>1726149091012</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1726149091012</updated>
+    </task>
+    <task id="LOCAL-00028" summary="240912">
+      <created>1726149093524</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1726149093524</updated>
+    </task>
+    <task id="LOCAL-00029" summary="240912">
+      <created>1726149096071</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1726149096071</updated>
+    </task>
+    <task id="LOCAL-00030" summary="240912">
+      <created>1726149098822</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1726149098822</updated>
+    </task>
+    <task id="LOCAL-00031" summary="240912">
+      <created>1726149100992</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1726149100992</updated>
+    </task>
+    <task id="LOCAL-00032" summary="240916">
+      <created>1726413298565</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1726413298565</updated>
+    </task>
+    <task id="LOCAL-00033" summary="240916">
+      <created>1726413301172</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1726413301172</updated>
+    </task>
+    <task id="LOCAL-00034" summary="240916">
+      <created>1726413303325</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1726413303325</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,5 +403,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="240909" />
+    <MESSAGE value="240910" />
+    <MESSAGE value="240911" />
+    <MESSAGE value="240912" />
+    <MESSAGE value="240916" />
+    <option name="LAST_COMMIT_MESSAGE" value="240916" />
   </component>
 </project>
