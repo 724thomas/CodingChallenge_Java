@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3402f225-f16d-430c-a5f8-6b062eeb28a6" name="Changes" comment="240916">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/Q3112.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/Q947.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,6 +149,7 @@
       <workItem from="1725844101622" duration="520000" />
       <workItem from="1725844639956" duration="24378000" />
       <workItem from="1726410000037" duration="1288000" />
+      <workItem from="1726470955150" duration="693000" />
     </task>
     <task id="LOCAL-00001" summary="240909">
       <created>1725844344195</created>
@@ -387,7 +389,21 @@
       <option name="project" value="LOCAL" />
       <updated>1726413303325</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="240916">
+      <created>1726471013520</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1726471013520</updated>
+    </task>
+    <task id="LOCAL-00036" summary="240916">
+      <created>1726471015796</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1726471015796</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
