@@ -22,7 +22,6 @@ class Q4779 {
     }
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        // 예: 한 줄 입력받기
         String input;
 
         while ((input = br.readLine()) != null) {
