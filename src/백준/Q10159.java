@@ -27,6 +27,7 @@ class Q10159 {
         }
         return count;
     }
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         Map<Integer, ArrayList<Integer>> heavierThan = new HashMap<>();

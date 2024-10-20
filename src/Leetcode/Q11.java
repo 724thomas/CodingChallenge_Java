@@ -25,22 +25,22 @@ public class  Q11 {
             return ans;
         }
     }
-}
+    class Solution2 {
+        public int[] solution(String[] genres, int[] plays) {
+            var n = genres.length;
+            var genreMap = new HashMap<String, ArrayList<int[]>>();
+            for (int i=0; i<n; i++) {
+                var genre = genres[i];
+                var play = plays[i];
+                genreMap.putIfAbsent(genre, new ArrayList<>());
+                genreMap.get(genre).add(new int[]{play, i});
+            }
 
 
-class Solution {
-    public int[] solution(String[] genres, int[] plays) {
-        var n = genres.length;
-        var genreMap = new HashMap<String, ArrayList<int[]>>();
-        for (int i=0; i<n; i++) {
-            var genre = genres[i];
-            var play = plays[i];
-            genreMap.putIfAbsent(genre, new ArrayList<>());
-            genreMap.get(genre).add(new int[]{play, i});
+            int[] answer = {};
+            return answer;
         }
-
-
-        int[] answer = {};
-        return answer;
     }
 }
+
+
