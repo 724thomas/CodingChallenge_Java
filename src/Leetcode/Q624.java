@@ -1,5 +1,7 @@
 package Leetcode;
 
+import java.util.List;
+
 public class Q624 {
     class Solution {
         public int maxDistance(List<List<Integer>> arrays) {
