@@ -1,12 +1,12 @@
 // https://www.acmicpc.net/problem/
-package 백준.p1189;
+package 백준;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-class Main {
+class Q1189 {
     private static final char BLOCK = 'T';
     private static final int[] dx = {-1, 0, 1, 0};
     private static final int[] dy = {0, 1, 0, -1};

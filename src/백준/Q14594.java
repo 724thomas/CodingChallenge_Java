@@ -1,16 +1,11 @@
 // https://www.acmicpc.net/problem/
-package 백준.p14594;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.Arrays;
+package 백준;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-class Main {
+class Q14594 {
     static int[] par;
 
     static int find(int x) {

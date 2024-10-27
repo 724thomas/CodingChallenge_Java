@@ -1,5 +1,5 @@
 // https://www.acmicpc.net/problem/
-package 백준.p14426;
+package 백준;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,7 +8,7 @@ import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Deque;
 
-class Main {
+class Q14426 {
 
     static int s;
 

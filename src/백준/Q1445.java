@@ -1,14 +1,12 @@
 // https://www.acmicpc.net/problem/
-package 백준.p1445;
+package 백준;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayDeque;
-import java.util.Deque;
 import java.util.PriorityQueue;
 
-class Main {
+class Q1445 {
     private static final char GARBAGE = 'g';
     private static final int[] dx = {-1, 0, 1, 0};
     private static final int[] dy = {0, 1, 0, -1};
