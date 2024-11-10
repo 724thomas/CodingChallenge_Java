@@ -1,6 +1,7 @@
 package Leetcode;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Q163 {
@@ -8,21 +9,13 @@ public class Q163 {
         public List<List<Integer>> findMissingRanges(int[] nums, int lower, int upper) {
             List<List<Integer>> ans = new ArrayList<>();
 
-            int prev = lower - 1;
-
-            for (int i = 0; i <= nums.length; i++) {
-                int curr = i < nums.length ? nums[i] : upper + 1;
-
-                if (prev + 1 <= curr - 1) {
-                    ans.add(List.of(prev + 1, curr - 1));
-                }
-
-                prev = curr;
+            for (int num : nums) {
+                if (lower < num) ans.add(Arrays.asList(lower, num-1));
+                lower = num+1;
             }
-
+            if (lower <= upper) ans.add(Arrays.asList(lower, upper));
             return ans;
         }
     }
 
 }
-
