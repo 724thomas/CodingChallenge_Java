@@ -1,5 +1,9 @@
 package Leetcode;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 public class Q616 {
     class Solution {
         public String addBoldTag(String s, String[] words) {
