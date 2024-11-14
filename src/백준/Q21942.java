@@ -36,9 +36,7 @@ class Q21942 {
         LocalDateTime maxReturnTime = borrowedTime.plusDays(day).plusHours(hour).plusMinutes(minute);
         LocalDateTime returnedTime = LocalDateTime.parse(returnTime, formatter);
 
-        if (!returnedTime.isAfter(maxReturnTime)) {
-            return 0; // 반납 시간이 대여 만료 시간 내라면 벌금 없음
-        }
+        if (!returnedTime.isAfter(maxReturnTime)) return 0;
 
         Long overdueMinutes = Duration.between(maxReturnTime, returnedTime).toMinutes();
         return overdueMinutes * penalty;
