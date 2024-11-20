@@ -19,9 +19,6 @@ import java.util.Arrays;
 
 class Main {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    static String input;
-    static String[] inputs;
-    static int[] ninputs;
 
     public static void main(String[] args) throws IOException {
 
