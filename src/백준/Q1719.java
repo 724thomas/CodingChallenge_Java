@@ -21,7 +21,7 @@ public class Q1719 {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
     public static void main(String[] args) throws IOException {
-        int[] inputs = Arrays.stream(br.readLine()ㄷ.split(" ")).mapToInt(Integer::parseInt).toArray();
+        int[] inputs = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
         int N = inputs[0], M = inputs[1];
 
         int[][] dist = new int[N + 1][N + 1];
