@@ -36,7 +36,6 @@ class Q11657 {
                 if (distance[curr] != Long.MAX_VALUE && distance[next] > (long)distance[curr] + cost) {
                     distance[next] = (long)distance[curr] + cost;
                 }
-
             }
         }
 

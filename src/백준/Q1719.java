@@ -21,14 +21,14 @@ public class Q1719 {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
     public static void main(String[] args) throws IOException {
-        int[] inputs = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
+        int[] inputs = Arrays.stream(br.readLine()ㄷ.split(" ")).mapToInt(Integer::parseInt).toArray();
         int N = inputs[0], M = inputs[1];
 
         int[][] dist = new int[N + 1][N + 1];
         int[][] path = new int[N + 1][N + 1];
 
         for (int i = 1; i <= N; i++) {
-            Arrays.fill(dist[i], 200 * 10000);
+            Arrays.fill(dist[i], 1001);
             dist[i][i] = 0;
         }
 
