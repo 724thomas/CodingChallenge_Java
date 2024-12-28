@@ -3,7 +3,6 @@ package Leetcode;
 import java.util.PriorityQueue;
 
 public class Q3296 {
-import java.util.PriorityQueue;
 
     class Solution {
         public long minNumberOfSeconds(int mountainHeight, int[] workerTimes) {
