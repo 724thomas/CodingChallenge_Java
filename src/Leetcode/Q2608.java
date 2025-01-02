@@ -10,8 +10,6 @@ public class Q2608 {
         int ans = Integer.MAX_VALUE;
 
         public int bfs(int start) {
-            boolean[] visited = new boolean[n];
-
             Deque<int[]> deque = new ArrayDeque<>();
             deque.add(new int[]{start, -1, 0}); //curr, prev, dist;
 
@@ -21,10 +19,8 @@ public class Q2608 {
                 if (dist >= ans) return ans;
 
                 for (int next : graph.get(curr)) {
-
                     if (next == prev) continue;
                     if (next == start) return dist+1;
-                    visited[next]=true;
                     deque.add(new int[]{next, curr, dist+1});
                 }
             }
