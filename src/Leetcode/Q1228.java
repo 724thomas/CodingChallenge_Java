@@ -6,8 +6,7 @@ public class Q1228 {
             int actualDiff = arr[1] - arr[0];
             for (int i = 2; i < arr.length; i++) {
                 int diff = arr[i] - arr[i-1];
-                if (diff == actualDiff) continue;
-                else return arr[i] - actualDiff;
+                if (diff != actualDiff) return arr[i]-actualDiff;
             }
 
             return arr[0];
