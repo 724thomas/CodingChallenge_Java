@@ -10,6 +10,8 @@ O( )
 3. 자료구조/알고리즘 :
 
  */
+import java.util.ArrayDeque;
+import java.util.Deque;
 
 public class Q1765 {
     class Solution {
