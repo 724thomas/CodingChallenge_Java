@@ -11,8 +11,7 @@ O( )
 
  */
 
-import java.util.Collections;
-import java.util.HashMap;
+import java.util.*;
 
 public class Q1181 {
     class Pair {
