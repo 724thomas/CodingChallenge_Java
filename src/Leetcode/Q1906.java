@@ -38,10 +38,13 @@ public class Q1906 {
                 }
 
                 int cmin = Integer.MAX_VALUE;
-                for (int j=0; j<cmax+1; j++) {
-                    for (int k = j+1; k<cmax+1; k++) {
-                        if (rangeCounter[k]==0 || rangeCounter[j]==0) continue;
-                        cmin = Math.min(cmin, Math.abs(k-j));
+                int left=-1;
+                for (int right=0; right<cmax+1; right++) {
+                    if (rangeCounter[right]!=0) {
+                        if (left!=-1) {
+                            cmin = Math.min(cmin, right-left);
+                        }
+                        left = right;
                     }
                 }
 
@@ -49,7 +52,6 @@ public class Q1906 {
             }
 
         /*
-예시 2,
 [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
 [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0]
