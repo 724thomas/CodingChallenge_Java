@@ -17,11 +17,11 @@ import java.util.List;
 public class Q1018 {
     class Solution {
         public List<Boolean> prefixesDivBy5(int[] nums) {
-            StringBuilder sb = new StringBuilder();
             List<Boolean> ans = new ArrayList<>();
-            for (int n : nums) {
-                sb.append(n);
-                ans.add( Integer.parseInt(sb.toString(), 2) % 5 ==0 );
+            int curr = 0;
+            for (int num : nums) {
+                curr = (curr*2 + num) % 5;
+                ans.add(curr ==0);
             }
             return ans;
         }
