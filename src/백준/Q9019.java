@@ -22,7 +22,6 @@ import java.util.*;
 class Q9019 {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-    static boolean[] visited;
     static int[] prev;
     static char[] command;
     static Deque<Integer> queue;
@@ -33,14 +32,13 @@ class Q9019 {
             String[] inputs =  br.readLine().split(" ");
             int start =  Integer.parseInt(inputs[0]), target = Integer.parseInt(inputs[1]);
 
-            visited =  new boolean[10000];
             prev = new int[10000];
             Arrays.fill(prev, -1);
             command = new char[10000];
             queue = new ArrayDeque<>();
 
             queue.add(start);
-            visited[start] = true;
+            prev[start] = start;
 
             while (!queue.isEmpty()) {
                 int curr = queue.pollFirst();
@@ -51,10 +49,10 @@ class Q9019 {
                 int numL = commandL(curr);
                 int numR = commandR(curr);
 
-                if (!visited[numD]) doCommand(curr, numD,'D');
-                if (!visited[numS]) doCommand(curr, numS,'S');
-                if (!visited[numL]) doCommand(curr, numL,'L');
-                if (!visited[numR]) doCommand(curr, numR,'R');
+                if (prev[numD] == -1) doCommand(curr, numD,'D');
+                if (prev[numS] == -1) doCommand(curr, numS,'S');
+                if (prev[numL] == -1) doCommand(curr, numL,'L');
+                if (prev[numR] == -1) doCommand(curr, numR,'R');
             }
 
             StringBuilder sb = new StringBuilder();
@@ -69,7 +67,6 @@ class Q9019 {
     }
 
     public static void doCommand(int curr, int nextNum, char commandChar) {
-        visited[nextNum] = true;
         prev[nextNum] = curr;
         command[nextNum] = commandChar;
         queue.addLast(nextNum);
